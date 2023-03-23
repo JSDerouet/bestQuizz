@@ -1,28 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="index.js"></script>
+    <title>Best Quizz | Accueil</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Page d'accueil</a></li>
+        </ul>
+    </nav>
+    <p>Dans l'univers de Warhammer battle, qui est le dieu du carnage?</p>
+    <label>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="home.css">
-        <script src="index.js"></script>
-        <title>Best Quizz | Accueil</title>
-    </head>
+        <input type="radio" name="option" value="Tzeentch">  Tzeentch
+      </label>
+      <label>
+        <input type="radio" name="option" value="Nurgle">  Nurgle
+      </label>
+      <label>
+        <input type="radio" name="option" value="Khorne">  Khorne
+      </label>
+      <label>
+        <input type="radio" name="option" value="Slaanesh"> Slaanesh
+      </label>
 
-    <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">Page d'accueil</a></li>
-            </ul>
-        </nav>
-        <div class="result">
-            <div class="result_window incorrect">
-                <p class="result_window_title">TITRE</p>
-                <p class="result_window_text">Petite phrase en dessous</p>
-                <button id="close_modale">Fermer</button>
-            </div>
+          <p>Pour quelles écuries Fernando Alonso a-t-til piloté?</p>
+
+<label>
+  <input type="checkbox" name="car" value="Renault"> Renault
+</label>
+<label>
+  <input type="checkbox" name="car" value="Mercedes"> Mercedes
+</label>
+<label>
+  <input type="checkbox" name="car" value="McLaren"> McLaren
+</label>
+<label>
+    <input type="checkbox" name="car" value="Ferrari"> Ferrari
+  </label>
+  <label>
+    <input type="checkbox" name="car" value="Red Bull"> Red Bull
+  </label>
+  <label>
+    <input type="checkbox" name="car" value="Williams"> Williams
+  </label>
+  <p>Quel est le hobby qui consiste à collectionner des timbres?</p>
+    <label>
+
+        <input type="radio" name="timbre" value="La philatélie">  La philatélie
+      </label>
+      <label>
+        <input type="radio" name="timbre" value="La numismatique">  La numismatique
+      </label>
+      <label>
+        <input type="radio" name="timbre" value="Le modélisme">  Le modélisme
+      </label>
+      
+      <div class="result">
+        <div class="result_window incorrect">
+            <p class="result_window_title">TITRE</p>
+            <p class="result_window_text">Petite phrase en dessous</p>
+            <button id="close_modale">Fermer</button>
         </div>
-    </body>
+    </div>
 
+    <footer>
+        <p>© Les meilleurs Testeurs 2023</p>
+    </footer>
+</body>
 </html>
