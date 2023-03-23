@@ -2,85 +2,110 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="home.css">
-  <script src="index.js"></script>
-  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
-  <title>Best Quizz | Accueil</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="index.js"></script>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <title>Best Quizz | Accueil</title>
 </head>
 
 <body>
-  <nav>
-    <ul class="nav">
-      <img class="logo" src="image/icon.jpg" alt="icon" weight="50px" height="50px">
-      <li><a href="index.html">Page d'accueil</a></li>
-    </ul>
-  </nav>
-  <hr>
-  <main>
-    <h1><strong>Quiz de culture générale</strong> : <em>êtes-vous incollable ?</em></h1>
-    <form>
-      <h2>Question 1 :</h2>
-      <p>Dans l'univers de Warhammer battle, qui est le dieu du carnage?</p>
-      <label>
-        <input type="radio" name="option" value="Tzeentch"> Tzeentch
-      </label>
-      <label>
-        <input type="radio" name="option" value="Nurgle"> Nurgle
-      </label>
-      <label>
-        <input type="radio" name="option" value="Khorne"> Khorne
-      </label>
-      <label>
-        <input type="radio" name="option" value="Slaanesh"> Slaanesh
-      </label>
-      <h2>Question 2 :</h2>
-      <p>Pour quelles écuries Fernando Alonso a-t-til piloté?</p>
-      <label>
-        <input type="checkbox" name="car" value="Renault"> Renault
-      </label>
-      <label>
-        <input type="checkbox" name="car" value="Mercedes"> Mercedes
-      </label>
-      <label>
-        <input type="checkbox" name="car" value="McLaren"> McLaren
-      </label>
-      <label>
-        <input type="checkbox" name="car" value="Ferrari"> Ferrari
-      </label>
-      <label>
-        <input type="checkbox" name="car" value="Red Bull"> Red Bull
-      </label>
-      <label>
-        <input type="checkbox" name="car" value="Williams"> Williams
-      </label>
-      <h2>Question 3 :</h2>
-      <p>Quel est le hobby qui consiste à collectionner des timbres?</p>
-      <label>
-        <input type="radio" name="timbre" value="La philatélie"> La philatélie
-      </label>
-      <label>
-        <input type="radio" name="timbre" value="La numismatique"> La numismatique
-      </label>
-      <label>
-        <input type="radio" name="timbre" value="Le modélisme"> Le modélisme
-      </label><br>
-      <input type="submit" value="Répondre">
-    </form>
-    <div class="result">
-      <div class="result_window incorrect">
-        <p class="result_window_title">TITRE</p>
-        <p class="result_window_text">Petite phrase en dessous</p>
-        <button id="close_modale">Fermer</button>
-      </div>
-    </div>
-  </main>
-  <hr>
-  <footer>
-    <p>© Les meilleurs Testeurs 2023</p>
-  </footer>
+    <nav>
+        <ul class="nav">
+            <img class="logo" src="image/icon.jpg" alt="icon" weight="50px" height="50px">
+            <li><a href="index.html">Page d'accueil</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <h1><strong>Quiz de culture générale</strong> : <em>êtes-vous incollable ?</em></h1>
+        <form>
+            <h2><strong>Question 1 :</strong> Dans l'univers de Warhammer battle, qui est le dieu du carnage? </h2>
+            <div class="parent">
+                <div class="container">
+                    <img src="https://static.wikia.nocookie.net/la-caste-du-chaos/images/2/2b/Warhammer_Chaos_Gods_by_AssasinMonkey.jpg/revision/latest?cb=20140505141053&path-prefix=fr"
+                        alt="Les quatres avatars des quatres dieux du chaos, avec les symboles propre à ses dieux."" width="
+                        300px" height="200px"><br>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="option" value="Tzeentch"> Tzeentch
+                    </label><br>
+                    <label>
+                        <input type="radio" name="option" value="Nurgle"> Nurgle
+                    </label><br>
+                    <label>
+                        <input type="radio" name="option" value="Khorne"> Khorne
+                    </label><br>
+                    <label>
+                        <input type="radio" name="option" value="Slaanesh"> Slaanesh
+                    </label><br>
+                </div>
+            </div>
+            <h2><strong> Question 2 :</strong> pour quelles écuries Fernando Alonso a-t-til piloté? </h2>
+            <div class="parent">
+                <div class="container">
+                    <img src="https://www.dhnet.be/resizer/I-hz5QJEceg1J2XG7fZauQfjPqk=/1200x800/filters:format(jpeg):focal(3016.5x2019.5:3026.5x2009.5)/cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/DKHIQ7KDMVBXBJ7HNIEMUC7AFY.jpg"
+                        alt="le dieu du carnage" " width=" 300px" height="200px">
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="car" value="Renault"> Renault
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="car" value="Mercedes"> Mercedes
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="car" value="McLaren"> McLaren
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="car" value="Ferrari"> Ferrari
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="car" value="Red Bull"> Red Bull
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="car" value="Williams"> Williams
+                    </label>
+                </div>
+            </div>
+
+            <h2><strong> Question 3 :</strong> Quel est le hobby qui consiste à collectionner des timbres? </h2>
+            <div class="parent">
+                <div class="container">
+                    <img src="https://www.macommune.info/wp-content/uploads/2022/12/capture-decran-2022-12-28-a-10.06.52-e1672218457610.jpg"
+                        alt="les timbres" " width=" 300px" height="200px">
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="timbre" value="La philatélie"> La philatélie
+                    </label><br>
+                    <label>
+                        <input type="radio" name="timbre" value="La numismatique"> La numismatique
+                    </label><br>
+                    <label>
+                        <input type="radio" name="timbre" value="Le modélisme"> Le modélisme
+                    </label>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Répondre">
+            </div>
+        </form>
+        <div class="result">
+            <div class="result_window incorrect">
+                <p class="result_window_title">TITRE</p>
+                <p class="result_window_text">Petite phrase en dessous</p>
+                <button id="close_modale">Fermer</button>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p>© Les meilleurs Testeurs 2023</p>
+    </footer>
 </body>
 
 </html>
