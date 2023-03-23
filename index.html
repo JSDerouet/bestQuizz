@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="home.css">
-  <script src="index.js"></script>
   <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
   <title>Best Quizz | Accueil</title>
 </head>
@@ -59,21 +58,21 @@
       <h2>Question 3 :</h2>
       <p>Quel est le hobby qui consiste à collectionner des timbres?</p>
       <label>
-        <input type="radio" name="timbre" value="La philatélie"> La philatélie
+        <input type="radio" name="timbre" value="Philatélie"> La philatélie
       </label>
       <label>
-        <input type="radio" name="timbre" value="La numismatique"> La numismatique
+        <input type="radio" name="timbre" value="Numismatique"> La numismatique
       </label>
       <label>
-        <input type="radio" name="timbre" value="Le modélisme"> Le modélisme
+        <input type="radio" name="timbre" value="Modélisme"> Le modélisme
       </label><br>
-      <input type="submit" value="Répondre">
+      <input type="submit" value="Répondre" id="submit">
     </form>
     <div class="result">
-      <div class="result_window incorrect">
-        <p class="result_window_title">TITRE</p>
-        <p class="result_window_text">Petite phrase en dessous</p>
-        <button id="close_modale">Fermer</button>
+      <div class="resultwindow">
+        <p class="resultwindowtitle">TITRE</p>
+        <p class="resultwindowtext">Petite phrase en dessous</p>
+        <button class="closemodale">Fermer</button>
       </div>
     </div>
   </main>
@@ -82,5 +81,5 @@
     <p>© Les meilleurs Testeurs 2023</p>
   </footer>
 </body>
-
+<script src="index.js"></script>
 </html>
