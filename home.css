@@ -5,3 +5,39 @@ root {
     --accent: ;
     --second_accent: ;
 }
+
+.result {
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(49, 49, 49, 0.4);
+}
+
+.result_window {
+    background-color: white;
+    width: 35%;
+    padding: 1rem;
+    border: black solid 5px;
+    border-radius: 8px;
+    top: 40%;
+    position: relative;
+    margin: auto;
+}
+
+.result_window_title, .result_window_text {
+    color: black;
+    text-align: center;
+}
+
+.correct {
+    border-color: rgb(0, 150, 0);
+    background-color:rgb(215, 255, 204);
+}
+
+.incorrect {
+    border-color:rgb(230, 90, 0);
+    background-color:rgb(251, 230, 188);
+}
