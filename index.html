@@ -106,6 +106,84 @@
     <footer>
         <p>© Les meilleurs Testeurs 2023</p>
     </footer>
-</body>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+  <title>Best Quizz | Accueil</title>
+</head>
 
+<body>
+  <nav>
+    <ul class="nav">
+      <img class="logo" src="image/icon.jpg" alt="icon" weight="50px" height="50px">
+      <li><a href="index.html">Page d'accueil</a></li>
+    </ul>
+  </nav>
+  <hr>
+  <main>
+    <h1><strong>Quiz de culture générale</strong> : <em>êtes-vous incollable ?</em></h1>
+    <form>
+      <h2>Question 1 :</h2>
+      <p>Dans l'univers de Warhammer battle, qui est le dieu du carnage?</p>
+      <label>
+        <input type="radio" name="option" value="Tzeentch"> Tzeentch
+      </label>
+      <label>
+        <input type="radio" name="option" value="Nurgle"> Nurgle
+      </label>
+      <label>
+        <input type="radio" name="option" value="Khorne"> Khorne
+      </label>
+      <label>
+        <input type="radio" name="option" value="Slaanesh"> Slaanesh
+      </label>
+      <h2>Question 2 :</h2>
+      <p>Pour quelles écuries Fernando Alonso a-t-til piloté?</p>
+      <label>
+        <input type="checkbox" name="car" value="Renault"> Renault
+      </label>
+      <label>
+        <input type="checkbox" name="car" value="Mercedes"> Mercedes
+      </label>
+      <label>
+        <input type="checkbox" name="car" value="McLaren"> McLaren
+      </label>
+      <label>
+        <input type="checkbox" name="car" value="Ferrari"> Ferrari
+      </label>
+      <label>
+        <input type="checkbox" name="car" value="Red Bull"> Red Bull
+      </label>
+      <label>
+        <input type="checkbox" name="car" value="Williams"> Williams
+      </label>
+      <h2>Question 3 :</h2>
+      <p>Quel est le hobby qui consiste à collectionner des timbres?</p>
+      <label>
+        <input type="radio" name="timbre" value="Philatélie"> La philatélie
+      </label>
+      <label>
+        <input type="radio" name="timbre" value="Numismatique"> La numismatique
+      </label>
+      <label>
+        <input type="radio" name="timbre" value="Modélisme"> Le modélisme
+      </label><br>
+      <input type="submit" value="Répondre" id="submit">
+    </form>
+    <div class="result">
+      <div class="resultwindow">
+        <p class="resultwindowtitle">TITRE</p>
+        <p class="resultwindowtext">Petite phrase en dessous</p>
+        <button class="closemodale">Fermer</button>
+      </div>
+    </div>
+  </main>
+  <hr>
+  <footer>
+    <p>© Les meilleurs Testeurs 2023</p>
+  </footer>
+</body>
+<script src="index.js"></script>
 </html>
