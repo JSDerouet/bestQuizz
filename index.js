@@ -1,15 +1,21 @@
-const resultWindow = document.querySelector(".result");
-const closeResult = document.querySelector("#close_modale")
+/*
 
+// Récupération des éléments "interactifs"
+const resultWindow = document.getElementsByClassName("result");
+const closeResult = document.getElementById("close_modale");
+
+// Le bouton doit cacher la modale "Résultat"
 closeResult.addEventListener("click",  function() {
-    resultWindow.style.display = "none";
+    hideResultWindow();
 });
 
-
+// Fonction qui affiche la modale
 function displayResultWindow () {
     resultWindow.style.display = "block";
 };
 
+// Fonction qui cache la modale
 function hideResultWindow () {
     resultWindow.style.display = "none";
 }
+*/
