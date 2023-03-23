@@ -1,11 +1,31 @@
-root {
-    --primary: ;
-    --secondary: ;
-    --background: ;
-    --accent: ;
-    --second_accent: ;
+:root {
+    --primary: #233D4D;
+    --secondary: #FE7F2D;
+    --background: #FCCA46;
+    --accent: #A1C181;
+    --second_accent: #619B8A;
 }
 
+body {
+    background-color: var(--background);
+}
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    margin-right: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+.nav li {
+    font-size: 25px;
+}
+
+/* ceci est pour la modale */
 .result {
     display: none;
     position: fixed;
