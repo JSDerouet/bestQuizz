@@ -26,6 +26,7 @@ ul {
 
 .nav li {
     font-size: 25px;
+    padding-left: 1rem;
 }
 
 /* ceci est pour la modale */
