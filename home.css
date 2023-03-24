@@ -4,6 +4,8 @@
     --background: #FCCA46;
     --accent: #A1C181;
     --second_accent: #619B8A;
+    --correct:#048000;
+    --incorrect: #CF0000;
 }
 
 body {
@@ -76,9 +78,6 @@ h2 {
 .container {
     display: flex;
     justify-content:space-around;
-    height: 50vh;
-
-
 }
 
 input {
@@ -103,14 +102,26 @@ input[type="submit"] {
 }
 
 label {
-
     font-size: 30px;
-
 }
 
 .parent {
     display: flex;
-flex-direction:row-reverse;
-justify-content:space-around
+    flex-direction:row-reverse;
+    justify-content:space-around;
+    margin-bottom: 3rem;
 }
  
+.verif{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.correct_answer {
+    color: var(--correct);
+}
+
+.incorrect_answer {
+    color: var(--incorrect);
+}
