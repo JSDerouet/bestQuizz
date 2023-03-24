@@ -126,3 +126,12 @@ label {
 .incorrect_answer {
     color: var(--incorrect);
 }
+
+/* Partie Questionnaire Test */
+.quest {
+    display: none;
+}
+
+.show {
+    display: block;
+}
