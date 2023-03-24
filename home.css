@@ -37,7 +37,7 @@ ul {
     background-color: rgba(49, 49, 49, 0.4);
 }
 
-.resultwindow {
+.result_window {
     background-color: white;
     width: 35%;
     padding: 1rem;
@@ -49,7 +49,7 @@ ul {
 }
 
 
-.resultwindowtitle, .resultwindowtext {
+.result_window_title, .result_window_text {
     color: black;
     text-align: center;
 }
@@ -114,6 +114,3 @@ flex-direction:row-reverse;
 justify-content:space-around
 }
  
-
-
-}
